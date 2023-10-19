@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #F2F2F2;
+}
+.container {
+    background-color: #F2F2F2;
+    flex-direction: row;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-one {
+    height: 500px;
+    width: 307px;
+    background-color: #E28625;
+    padding: 48px;
+    border-radius: 8px 0 0 8px;
+}
+.card-two {
+    height: 500px;
+    width: 307px;
+    background-color: #006971;
+    padding: 48px;
+}
+.card-three {
+    height: 500px;
+    width: 307px;
+    background-color: #004140;
+    padding: 48px;
+    border-radius: 0 8px 8px 0;
+}
+.button-1 {
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    color: #E28625;
+    padding: 11px;
+    border: none;
+    height: 48px;
+    width: 146px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 98px;
+}
+.button-2 {
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    color: #006971;
+    padding: 11px;
+    border: none;
+    height: 48px;
+    width: 146px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 98px;
+}
+.button-3 {
+    border-radius: 25px;
+    background-color: #F2F2F2;
+    color: #004140;
+    padding: 11px;
+    border: none;
+    height: 48px;
+    width: 146px;
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 98px;
+}
+p {
+    color: #FFFFFF;
+    font-family: "Lexend Deca";
+    font-weight: lighter;
+    font-size: 15px;
+}
+h1 {
+    color: #FFFFFF;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: 40px;
+}
+/* Small (sm) */
+@media (max-width: 640px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .card-one {
+        border-radius: 8px 8px 0 0;
+    }
+    .card-two {
+        border-radius: 0 0 0 0;
+    }
+    .card-three {
+        border-radius: 0 0 8px 8px;
+    }
+}
+/* Medium (md) */
+@media (min-width: 768px) {
+    /* Your styles for the medium breakpoint here */
+}
+/* Large (lg) */
+@media (min-width: 1024px) {
+    /* Your styles for the large breakpoint here */
+}
+/* Extra Large (xl) */
+@media (min-width: 1280px) {
+    /* Your styles for the extra large breakpoint here */
+}
+/* 2XL (2xl) */
+@media (min-width: 1536px) {
+    /* Your styles for the 2XL breakpoint here */
+}
